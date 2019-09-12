@@ -1,10 +1,9 @@
-tqdm
 absl-py==0.8.0
+apturl==0.5.2
 asn1crypto==0.24.0
 astor==0.8.0
 beautifulsoup4==4.6.0
 blinker==1.4
-Brlapi==0.6.6
 certifi==2018.1.18
 chardet==3.0.4
 command-not-found==0.3
@@ -21,6 +20,7 @@ h5py==2.9.0
 html5lib==0.999999999
 httplib2==0.9.2
 idna==2.6
+Jinja2==2.10.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 keyring==10.6.0
@@ -70,6 +70,7 @@ tensorboard==1.14.0
 tensorflow==1.14.0
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
+tqdm==4.35.0
 ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
