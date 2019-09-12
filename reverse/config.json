@@ -1,0 +1,6 @@
+{
+    "partData": 2,
+    "partTrained": 0,
+    "maxLabelsNum": 3315,
+    "mergeCSV" : 1000
+}

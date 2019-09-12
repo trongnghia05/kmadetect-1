@@ -1,0 +1,23 @@
+{
+    "Pre_static_analysis": {
+        "Filename": "/0eb2e8ff5665b3a4e1e562242fe7ab5b.apk",
+        "md5": "0eb2e8ff5665b3a4e1e562242fe7ab5b",
+        "sha256": "37ace33e7188a0fbebc8bd59e612ba61d0c585f68b1e4e2f0fbc4054a11b34e4",
+        "sha1": "c95848e4ba0ba758ecaaeb53aea2e00789d044f0",
+        "VT_positives": null
+    },
+    "Static_analysis": {
+        "Package name": "",
+        "Permissions": [],
+        "Main activity": null,
+        "API calls": {},
+        "Strings": {},
+        "API packages": {},
+        "Intents": {
+            "Failed to extract intents": 0
+        },
+        "Activities": {},
+        "Services": {},
+        "Receivers": {}
+    }
+}

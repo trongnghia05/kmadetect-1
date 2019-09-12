@@ -1,0 +1,97 @@
+{
+    "Pre_static_analysis": {
+        "Filename": "/0feec92476ecddd3ab5ca86b80375d9d.apk",
+        "md5": "0feec92476ecddd3ab5ca86b80375d9d",
+        "sha256": "29f3ecc262bfa8512d071877674bed78ef5949221cadc55a8e66d05ef27fd97e",
+        "sha1": "a4a8b92f243d66ad4234599f6d5d1a22c542e129",
+        "VT_positives": null
+    },
+    "Static_analysis": {
+        "Package name": "noogei.ohpah.aegaeg",
+        "Permissions": [
+            "android.permission.WRITE_CONTACTS",
+            "android.permission.CHANGE_CONFIGURATION",
+            "android.permission.VIBRATE",
+            "android.permission.SEND_SMS",
+            "android.permission.INSTALL_PACKAGES",
+            "android.permission.WRITE_CALENDAR",
+            "android.permission.READ_FRAME_BUFFER",
+            "android.permission.READ_SMS",
+            "android.permission.WRITE_SMS",
+            "android.permission.READ_LOGS",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.READ_CALENDAR",
+            "android.permission.CAMERA",
+            "android.permission.STATUS_BAR",
+            "android.permission.INTERNET",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.CONTROL_LOCATION_UPDATES",
+            "android.permission.RECEIVE_SMS",
+            "android.permission.EXPAND_STATUS_BAR",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "com.android.browser.permission.READ_HISTORY_BOOKMARKS",
+            "android.permission.READ_CONTACTS"
+        ],
+        "Main activity": "noogei.ohpah.aegaeg.EeHiaep",
+        "API calls": {
+            "android.app.ProgressDialog.dismiss": 1,
+            "android.content.Context.getSystemService": 1,
+            "android.content.Context.getFilesDir": 2,
+            "java.io.OutputStream.close": 1,
+            "android.content.Context.getString": 12,
+            "java.lang.StringBuilder.toString": 16,
+            "android.telephony.SmsManager.sendTextMessage": 1,
+            "java.lang.String.equalsIgnoreCase": 2,
+            "android.app.Activity.onCreate": 1,
+            "android.app.ProgressDialog.setProgressStyle": 1,
+            "android.app.ProgressDialog.setMessage": 1,
+            "android.app.Activity.onDestroy": 1,
+            "android.app.Activity.onStart": 1,
+            "android.content.Context": 25,
+            "android.content.res.Resources": 12,
+            "java.lang.Thread": 1,
+            "android.app.ProgressDialog": 3,
+            "android.app.AlertDialog": 2,
+            "android.telephony.TelephonyManager": 1,
+            "java.io.File": 1,
+            "java.io.OutputStream": 2,
+            "java.lang.StringBuilder": 48,
+            "java.lang.String": 4,
+            "java.lang.System": 1,
+            "java.util": 1,
+            "android.content": 1,
+            "android": 3,
+            "": 24
+        },
+        "Strings": {
+            "uJah1Oom": 5,
+            "do5Tah1k": 5,
+            "5014": 1,
+            "phone": 1,
+            "aechoo7U": 2,
+            "25002": 1,
+            "25099": 1
+        },
+        "API packages": {
+            "android.app": 11,
+            "android.content": 41,
+            "java.io": 4,
+            "java.lang": 72,
+            "android.telephony": 2,
+            "android.content.res": 12,
+            "java.util": 1,
+            "android": 3
+        },
+        "Intents": {
+            "android.intent.action.MAIN": 1
+        },
+        "Activities": {
+            "noogei.ohpah.aegaeg.EeHiaep": [
+                "android.intent.action.MAIN"
+            ]
+        },
+        "Services": {},
+        "Receivers": {}
+    }
+}
