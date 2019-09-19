@@ -2,8 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff4e647-9d83-4ab5-81df-0e61ae1c3937" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/detect/Data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect/DataHandle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect/ModelHandle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect/Train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect/configCNNs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/home/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/home/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/resuilt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/home/templates/pages/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/home/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/kmadetect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/kmadetect/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/0_2019-09-12 00:42:51.844721.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/1_2019-09-12 08:47:07.094828.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/00eaf3209e950e25153111615d0d3cbb-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e102b0595c0dcb916322197d2add7e5-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e137d7fba0eba1a90a28ade68f28276-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e66af596a02b1236be67769d0fe24a9-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e6eccb8e56830ad5bbaa89a0ce522db-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0eb2e8ff5665b3a4e1e562242fe7ab5b-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0ebdadb965e75cb44573029338fe9af3-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0ef5dc0fece3ec181df08c01cc1f6fae-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0f6732e04fa5de8ce12b8045f5be4c2d-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0fb93fa9150d433d7d3d33f47c1f365d-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0feec92476ecddd3ab5ca86b80375d9d-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1a117c0531db72b84bbb0aff651ed558-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1a387f50c1101ed57a41d2cd7b05b0a2-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1a49eaa54cdc3f003ba3048bb5d76bc7-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1aac5474aa69c31387dea0584b2f3af4-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ab1fdf354a5da3e0228bfe732e6dbc5-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1abfa3bf487e055cc25387d52a7ce41c-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1af9831b5d881b9371a0ebc621a3befb-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1afbaae232a3a3a7e5355deed061337d-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b13274b159294b5fedeef6c0069f0da-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b4722e5c93bf7a604af663c55ea1153-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b6968608719d4dc8b36ce24adca723f-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b87bc5bcfd020581137ac49a007205c-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1bcda430eda6f2606d50f917d485500a-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c008a2fb68230215275cb7145ffdca0-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c24323f2f38d378c345a7447c4b0cf8-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c4496e843df6d68e868bffad176f33a-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c79fe5f9aca58aebd5ad356ba292e01-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ca5ab35b9335e865055535331310584-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1cf36958340e79e256b7c532e94f3133-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1d974c6ce937571c68883460d3cb5033-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1d9d1e8929e84863a34d48ecba935ad1-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1db6231307384f26657e424b9cd64135-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1dc75961a8ca0e4662088eee8e36ee67-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e036ab0c29dd1c8d8b95bdd2eb3400d-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e1b2e8ea7e535cccf6271d59827e5da-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e477bc3fe1e5432a61ad61d27da1eb5-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e60185e2b33b324a20dff14e7de7ba1-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ea34e3eefe4db557f650c5321716387-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ebeacb49e864ae3fa83b6c9524ae91a-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1f01c5e9014353a8a295654a0805d1cc-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1f0b9734dcb59eaa9c411d729a71b76e-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1f72d14bb4c5b5c98af61bb8ef02705f-analysis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/aux_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/aux_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/features_managment.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/features_managment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/getFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/getFeatures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/mergeCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/mergeCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/reverse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/standardData.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/standardData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +93,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/reverse/Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kmadetect/manage.py" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reverse/tempApks" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/reverse/resources" />
       <recent name="$PROJECT_DIR$/reverse" />
       <recent name="$PROJECT_DIR$/reverse/libs" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/reverse/Libraries" />
@@ -53,23 +122,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getFeatures">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="Unnamed" type="CompoundRunConfigurationType">
       <method v="2" />
     </configuration>
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kma-det" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detect" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kma-det" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/Train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,20 +189,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getLabelNums" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="kma-det" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extensions" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kmadetect" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extensions/getLabelNums.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmadetect/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -120,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="standardData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kma-det" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +222,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse/standardData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse/reverse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kma-det" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,16 +254,20 @@
     </configuration>
     <list>
       <item itemvalue="Compound.Unnamed" />
-      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.manage" />
       <item itemvalue="Python.getFeatures" />
-      <item itemvalue="Python.getLabelNums" />
-      <item itemvalue="Python.standardData" />
+      <item itemvalue="Python.Train" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.reverse" />
+      <item itemvalue="Python.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Train" />
+        <item itemvalue="Python.reverse" />
+        <item itemvalue="Python.Test" />
         <item itemvalue="Python.getFeatures" />
-        <item itemvalue="Python.getLabelNums" />
-        <item itemvalue="Python.standardData" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +289,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -203,6 +320,36 @@
           <line>261</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detect/test.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detect/Test.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detect/Train.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/reverse/getFeatures.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detect/Test.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/home/views.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -212,6 +359,26 @@
         <watch expression="labels" language="Python" />
         <watch expression="md5" language="Python" />
         <watch expression="static_analysis_dict['Services']" language="Python" />
+        <watch expression="Permissions" language="Python" />
+        <watch expression="Intent" language="Python" />
+        <watch expression="analyze_apk" language="Python" />
+        <watch expression="analyze_apk" language="Python" />
+        <watch expression="analyze_apk" language="Python" />
+        <watch expression="analyze_apk" language="Python" />
+        <watch expression="numLabelPredic[0]" language="Python" />
+        <watch expression="len(numLabelPredic)" language="Python" />
+        <watch expression="fs.url(name)" language="Python" />
+        <watch expression="os.path.join('../templeApks', name)" language="Python" />
+        <watch expression="fs.path(name)" language="Python" />
+        <watch expression="fs.path(name)" language="Python" />
+        <watch expression="BASE" language="Python" />
+        <watch expression="PATH_DATACSV_CLIENT, nameApk.join('.csv')" language="Python" />
+        <watch expression="nameApk.join('.csv')" language="Python" />
+        <watch expression="fnmatch.filter('ads', '.csv')" language="Python" />
+        <watch expression="os.path.join(('templeApks/', nameApk + '.csv'))" language="Python" />
+        <watch expression="nameApk" language="Python" />
+        <watch expression="analyze_apk" language="Python" />
+        <watch expression="request" language="Python" />
       </configuration>
     </watches-manager>
   </component>

@@ -24,7 +24,7 @@ def standardData(pre_static_dict, static_analysis_dict):
     getAPICalls(static_analysis_dict['API calls'], features = features)
     getStrings(static_analysis_dict['Strings'], features = features)
     getActivities(static_analysis_dict['Main activity'], features = features)
-    service = static_analysis_dict['Services']
+    # service = static_analysis_dict['Services']
     getServices(static_analysis_dict['Services'], features= features)
     getReceivers(static_analysis_dict['Receivers'], features = features)
 
@@ -47,8 +47,15 @@ def standardData(pre_static_dict, static_analysis_dict):
     for i in range(len(features)):
         extendFeatures[i] = convertToNumber(features[i])
 
+    Permissions.clear()
+    APICalls.clear()
+    Activity.clear()
+    Intent.clear()
+    Url.clear()
+    Services.clear()
+    Service_receiver.clear()
 
-    return  extendFeatures
+    return extendFeatures
 
 
 
@@ -117,7 +124,6 @@ def convertToNumber(line):
     sumChar = 0
     for c in line:
         sumChar += ord(c)
-
     return str(round((sumChar / SUM_ACII), 6))
 
 

@@ -10,8 +10,8 @@ import collections
 import json
 import datetime
 
-from standardData import *
-from features_managment import *
+from reverse.standardData import *
+from reverse.features_managment import *
 from tqdm import tqdm
 from os.path import join as join_dir
 from androguard.core.bytecodes.apk import APK
@@ -48,7 +48,7 @@ def main():
     # args = parser.parse_args()
 
 
-    getFeatures(source_directory = r'/home/nguyentrung/Data_VirusAndroid/VirusShare-2')
+    getFeatures(source_directory = r'/home/nguyentrung/Data_VirusAndroid/VirusShare-7')
 
 def getFeatures(source_directory):
     ############################################################
@@ -251,7 +251,7 @@ def getFeatures(source_directory):
 
 
         row = standardData(pre_static_dict, static_analysis_dict)
-        if md5  in ARRNAME:
+        if md5 in ARRNAME:
             index = -1
             if md5 in ARRNAME:
                 index = ARRNAME.index(md5)
@@ -259,16 +259,16 @@ def getFeatures(source_directory):
                 index = ARRNAME.index(sha256)
 
             if index != -1:
-                label =ARRLABELS[index]
+                label = ARRLABELS[index]
                 try:
                     if label not in LABELSNUMANDTEXT:
                         if 'SINGLETON' in label:
                             continue
-                        maxLabelsNum += 1
-                        temp = collections.OrderedDict()
-                        temp[label] = maxLabelsNum
-                        LABELSNUMANDTEXT[label] = maxLabelsNum
-
+                        continue
+                        # maxLabelsNum += 1
+                        # temp = collections.OrderedDict()
+                        # temp[label] = maxLabelsNum
+                        # LABELSNUMANDTEXT[label] = maxLabelsNum
 
                 except:
                     continue
@@ -300,7 +300,6 @@ def getFeatures(source_directory):
         json.dump(dataConfig, fp, indent=4)
 
     fp.close()
-
 
     csvFile.close()
 

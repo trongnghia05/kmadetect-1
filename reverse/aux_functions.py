@@ -34,6 +34,11 @@ def save_as_json(data, output_name):
         json.dump(data, fp, indent=4)
     # print '[*] Analysis saved into:', str(output_name)
 
+def delAPk(nameApk):
+
+    # pathApk = 'templeApks/' + nameApk
+    os.remove(nameApk)
+    # cleanup(pathApk)
 
 def save_as_csv(data):
     # TODO
@@ -73,3 +78,9 @@ def load_from_json(name):
         return ['Not available']
 
 
+
+def checkMerge(pathDataCSV_Cient, mergeCSV):
+    list_dataCSV_Client = list_files(pathDataCSV_Cient, '*.csv')
+    if len(list_dataCSV_Client) >= mergeCSV:
+        return True
+    return False

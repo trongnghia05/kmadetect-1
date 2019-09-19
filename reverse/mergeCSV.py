@@ -7,12 +7,12 @@ import json
 import datetime
 
 from tqdm import tqdm
-from features_managment import *
+from reverse.features_managment import *
 
 config_file = 'config.json'
-DataCSVClient = 'DataCSV_Client/'
+DataCSVClient = '../reverse/DataCSV_Client/'
 
-def mergerCSV():
+def mergeCSV():
     with open(config_file, 'w+') as file:
         dataConfig = json.load(file)
 
@@ -23,7 +23,7 @@ def mergerCSV():
     if merge < len(csv_list):
         time = datetime.datetime.now()
         partDataFile = str(partData) + '_' + str(time).strip() + '.csv'
-        csvFile = open(r'DataCSV/' + partDataFile, 'w+', newline='')
+        csvFile = open(r'../reverse/DataCSV/' + partDataFile, 'w+', newline='')
         writer = csvFile.writer(csvFile, delimiter=',')
         for csvFileClient in tqdm(csv_list):
             reader = csv.reader(csvFileClient, delimiter=",")

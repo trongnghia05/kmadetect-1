@@ -1,10 +1,13 @@
 absl-py==0.8.0
+apturl==0.5.2
 asn1crypto==0.24.0
 astor==0.8.0
 beautifulsoup4==4.6.0
 blinker==1.4
+Brlapi==0.6.6
 certifi==2018.1.18
 chardet==3.0.4
+command-not-found==0.3
 cryptography==2.1.4
 cupshelpers==1.0
 defer==1.0.6
@@ -68,6 +71,7 @@ tensorboard==1.14.0
 tensorflow==1.14.0
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
+tflearn==0.3.2
 tqdm==4.35.0
 ubuntu-drivers-common==0.0.0
 ufw==0.36

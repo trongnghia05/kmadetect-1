@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     {% load staticfiles %}
     <meta charset="UTF-8">
@@ -7,30 +8,126 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css"/>
+    <script src="{% static 'js/app.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>{% block title %} {% endblock %}</title>
+    <style>
+        .buttonUpload {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border: 1px;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                border-radius: 10px;
+        }
+        .img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+         }
+
+        #page-container {
+                position: relative;
+                min-height: 100vh;
+        }
+
+        #content-wrap {
+                padding-bottom: 2.5rem;    /* Footer height */
+        }
+
+        #footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 2.5rem;            /* Footer height */
+        }
+        .site-footer {
+                background-color: #AAB7B8;
+
+        }
+        .full-height {
+            height: 100%;
+}
+
+
+
+
+
+    </style>
 </head>
 <body>
-    <div class="jumbotron text-center">
-        <h1>KMA DETECT</h1>
-        <p>Đây là website phát hiện virus Android</p>
-    </div>
-    <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark main-nav">
-    <!-- Up load file -->
-        <ul class="navbar-nav ">
-            <li class="nav-item ">
-                <a class="nav-link " href="#">File</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="col-md-2 col-md-offset-5" >
-        <div class="text-center">
-            <img alt src="static/image/thumbprint.png"></img>
-        </div>
-        <div class="text-center">
-            <button> Tải file</button>
+
+<div id="page-container">
+    <div class="jumbotron text-center " >
+        <div class="container" style="height: 50px;">
+             <h1>KMA DETECT</h1>
+            <p>Đây là website phát hiện virus Android</p>
         </div>
 
     </div>
 
+    <div id="content-wrap">
+        {% block content_home %} {% endblock %}
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small teal pt-4 site-footer" id="footer" style="height: 20px">
+
+        <!-- Footer Text -->
+        <div class="container-fluid text-center text-md-left site-footer">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase font-weight-bold">Thông tin </h5>
+                    <p>Trang web nhằm giuớ người sử dụng kiểm tra ứng dụng Android có phải là mã độc hay kh</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mb-md-0 mb-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase font-weight-bold">Developers </h5>
+                   <ul>
+                       <li>Nguyễn Đức Trung - Email: ndtrung98@gmail.com</li>
+                       <li>Mai Trọng Nghĩa- Email: maitrongnghia@gmail.com</li>
+                   </ul>
+                    <h5 lass="text-uppercase font-weight-bold"> Our sologan: Make our life better</h5>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Text -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 site-footer">© 2019 Copyright:
+            <a href="http://actvn.edu.vn/"> KMA Detect</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</div>
 </body>
+
+
 </html>
