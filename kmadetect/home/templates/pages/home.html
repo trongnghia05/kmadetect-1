@@ -1,6 +1,6 @@
 {% extends  "pages/base.html" %}
 
-{% block title %}Kma Detect {% endblock %}
+{% block title %} Kiuvirus {% endblock %}
 
 {% block content_home %}
 
@@ -30,14 +30,20 @@
     <div class="text-center ">
         <form method="post" class="uploadfile" action="{% url 'upload'  %}" enctype="multipart/form-data">
             {% csrf_token %}
-            <input type="file"  name="fileApk"/>
-            <button type="submit" class="buttonUpload btn-choose">Upload file</button>
+            <input type="file"   id="input" name="fileApk" style="display: none;"/>
+            <label for="input" style="border: 1px solid; color: white; backdrop-filter: brightness(50%); background: #4CAF50; padding: 10px;" >Upload file</label>
+            <button id="submit" type="submit" class="buttonUpload btn-choose" style="display: none"></button>
         </form>
         {% if url %}
         <p>Uploaded file: <a href="{{ url }}">{{ url }}</a></p>
         {% endif %}
     </div>
     <script>
+        document.getElementById('input').addEventListener("change", function (ev) {
+            document.getElementById('submit').click();
+
+        })
+
 <!--    $(".btn-choose").click(function(){-->
 <!--		$("input[type=file]").trigger("click");-->
 <!--        console.log("Chon file!");-->

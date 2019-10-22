@@ -1,22 +1,20 @@
 #kmadetect
 #By Nguyen Trung
 
-import shutil
-import os
-from reverse import reverse as rev
-from detect import Train
-import time
 
+import sys
+import json
+sys.path.insert(0, '../reverse/')
+sys.path.insert(0, '../detect/')
+import reverse.reverse as rvs
+import detect.Train as t
 
 from django.shortcuts import render
-from django.shortcuts import render, redirect
-from django.views.generic import TemplateView, ListView, CreateView  
 from django.core.files.storage import FileSystemStorage
-from django.urls import reverse_lazy
 
 PATH_TEMP = '../reverse/tempApks'
 
-from django.http import HttpResponse
+
 # Create your views here.
 def index(request):
    return render(request, 'pages/home.html')
@@ -24,6 +22,7 @@ def index(request):
 
 def upload(request):
    context = {}
+
    if request.method == 'POST':
       uploaded_file = request.FILES['fileApk']
       fs = FileSystemStorage()
@@ -37,12 +36,11 @@ def upload(request):
       # time.sleep(20)
 
       # shutil.move(fs.path(name), os.path.join(PATH_TEMP, name))
-      nameMd5 = rev.reverse(name)
+      nameMd5, apk_total_analysis = rvs.reverse(name)
       if nameMd5 == 'Error':
          labelDetect = 'Null'
       else:
-         labelDetect = Train.detectApk(nameMd5)
-
+         labelDetect = t.detectApk(nameMd5)
 
       if labelDetect == 'Null':
          Mess = 'Cant detect what kind of file'
@@ -51,5 +49,11 @@ def upload(request):
 
       context['labelDetect'] = labelDetect
       context['Mess'] = Mess
-   return render(request, 'pages/resuilt.html', context)
+      context['apk_total_analysis'] = apk_total_analysis
+      # context['pre_static_dict'] = apk_total_analysis['pre_static_dict']
+      # context['static_analysis_dict'] = apk_total_analysis['static_analysis_dict']
+      print(context)
+      contextfinal = json.loads(json.dumps(context))
+      print(contextfinal)
+   return render(request, 'pages/resuilt.html', contextfinal)
 

@@ -2,76 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff4e647-9d83-4ab5-81df-0e61ae1c3937" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/detect/Data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect/DataHandle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect/ModelHandle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect/Train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect/configCNNs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmadetect/home/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmadetect/home/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/resuilt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/detect/virustotal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/extensions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/home/static/css/kmadetect.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/resuiltnonevirus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmadetect/reverse/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/cli/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/cli/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/cli/entry_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/cli/entry_points.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/cli/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/cli/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/analysis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/analysis/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/analysis/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/analysis/auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/analysis/auto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/analysis/tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/analysis/tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/androconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/androconf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_15.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_17.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_26.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_27.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_27.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_28.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/aosp_permissions/permissions_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/aosp_permissions/permissions_9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_17.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/api_specific_resources/api_permission_mappings/permissions_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/api_specific_resources/api_permission_mappings/permissions_25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/bytecode.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/bytecode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/bytecodes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/bytecodes/apk.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/bytecodes/apk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/bytecodes/axml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/bytecodes/axml/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/bytecodes/axml/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/bytecodes/axml/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/bytecodes/dvm.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/bytecodes/dvm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/bytecodes/dvm_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/bytecodes/dvm_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/mutf8.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/mutf8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/bytecodes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/resources/public.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/resources/public.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/resources/public.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/resources/public.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/core/resources/public.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/resources/public.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/basic_blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/basic_blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/control_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/control_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/dast.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/dast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/dataflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/dataflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/decompile.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/decompile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/instruction.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/instruction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/node.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/opcode_ins.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/opcode_ins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/dad/writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/dad/writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/decompiler/decompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/decompiler/decompiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/Banners.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/Banners.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/BinViewMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/BinViewMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/DataModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/DisasmViewMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/DisasmViewMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/HexViewMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/HexViewMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/SourceViewMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/SourceViewMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/TextDecorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/TextDecorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/TextSelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/TextSelection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/ViewMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/ViewMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/androguard.ico" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/androguard.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/annotation.ui" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/annotation.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/apiwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/apiwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/binwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/binwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/cemu.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/cemu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/fileloading.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/fileloading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/mainwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/methodswindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/methodswindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/renamewindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/renamewindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/resourceswindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/resourceswindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/search.ui" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/search.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/sourcewindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/sourcewindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/stringswindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/stringswindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/treewindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/treewindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/gui/xrefwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/gui/xrefwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androguard/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/DataHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/DataHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/ModelHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/ModelHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/Train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/androguard/core/resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/configCNNs.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/configCNNs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/model/KMA_DtectModel.tflearn.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.index" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/model/KMA_DtectModel.tflearn.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/model/KMA_DtectModel.tflearn.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/model/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/FrequencyLabels.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/extensions/FrequencyLabels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/getLabelNums.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/extensions/getLabelNums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kmadetect/home/templates/pages/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kmadetect/home/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kmadetect/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/home/templates/pages/resuilt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/templates/pages/resuilt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kmadetect/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kmadetect/kmadetect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/kmadetect/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/0_2019-09-12 00:42:51.844721.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/1_2019-09-12 08:47:07.094828.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/00eaf3209e950e25153111615d0d3cbb-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e102b0595c0dcb916322197d2add7e5-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e137d7fba0eba1a90a28ade68f28276-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e66af596a02b1236be67769d0fe24a9-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0e6eccb8e56830ad5bbaa89a0ce522db-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0eb2e8ff5665b3a4e1e562242fe7ab5b-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0ebdadb965e75cb44573029338fe9af3-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0ef5dc0fece3ec181df08c01cc1f6fae-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0f6732e04fa5de8ce12b8045f5be4c2d-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0fb93fa9150d433d7d3d33f47c1f365d-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/0feec92476ecddd3ab5ca86b80375d9d-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1a117c0531db72b84bbb0aff651ed558-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1a387f50c1101ed57a41d2cd7b05b0a2-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1a49eaa54cdc3f003ba3048bb5d76bc7-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1aac5474aa69c31387dea0584b2f3af4-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ab1fdf354a5da3e0228bfe732e6dbc5-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1abfa3bf487e055cc25387d52a7ce41c-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1af9831b5d881b9371a0ebc621a3befb-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1afbaae232a3a3a7e5355deed061337d-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b13274b159294b5fedeef6c0069f0da-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b4722e5c93bf7a604af663c55ea1153-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b6968608719d4dc8b36ce24adca723f-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1b87bc5bcfd020581137ac49a007205c-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1bcda430eda6f2606d50f917d485500a-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c008a2fb68230215275cb7145ffdca0-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c24323f2f38d378c345a7447c4b0cf8-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c4496e843df6d68e868bffad176f33a-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1c79fe5f9aca58aebd5ad356ba292e01-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ca5ab35b9335e865055535331310584-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1cf36958340e79e256b7c532e94f3133-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1d974c6ce937571c68883460d3cb5033-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1d9d1e8929e84863a34d48ecba935ad1-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1db6231307384f26657e424b9cd64135-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1dc75961a8ca0e4662088eee8e36ee67-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e036ab0c29dd1c8d8b95bdd2eb3400d-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e1b2e8ea7e535cccf6271d59827e5da-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e477bc3fe1e5432a61ad61d27da1eb5-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1e60185e2b33b324a20dff14e7de7ba1-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ea34e3eefe4db557f650c5321716387-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1ebeacb49e864ae3fa83b6c9524ae91a-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1f01c5e9014353a8a295654a0805d1cc-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1f0b9734dcb59eaa9c411d729a71b76e-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/JsonData/1f72d14bb4c5b5c98af61bb8ef02705f-analysis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/aux_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/aux_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/features_managment.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/features_managment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/getFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/getFeatures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/mergeCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/mergeCSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/reverse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/standardData.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/standardData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/templeApks/0a7e302ebaa129c17a4d59fb89467dd4.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/0_2019-09-18 12:18:37.608436.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV/0_2019-09-18 12:18:37.608436.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/1_2019-09-18 12:26:15.603279.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV/1_2019-09-18 12:26:15.603279.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/2_2019-09-18 12:29:20.348471.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV/2_2019-09-18 12:29:20.348471.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/3_2019-09-18 12:45:37.665902.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV/3_2019-09-18 12:45:37.665902.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/4_2019-09-18 13:01:20.709268.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV/4_2019-09-18 13:01:20.709268.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/5_2019-09-18 13:18:31.719052.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV/5_2019-09-18 13:18:31.719052.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/d80e4f88ed36dde12da1863794ea143bcf53eaae22e511e3eb7402cef5224d4d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV_Client/d80e4f88ed36dde12da1863794ea143bcf53eaae22e511e3eb7402cef5224d4d.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/db60efd64689cb80d82c3626cfc20089f195ca595ee8582336110c695116c45a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/DataCSV_Client/db60efd64689cb80d82c3626cfc20089f195ca595ee8582336110c695116c45a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/Libraries/apktool.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/Libraries/apktool.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/detect/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/aux_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/aux_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/featureCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/featureCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/features_managment.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/features_managment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/getFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/getFeatures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/info/class_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/info/class_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/info/package_index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/info/package_index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/info/prmDomains.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/info/prmDomains.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/info/system_commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/info/system_commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/mergeCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/mergeCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/resources/LabelsNum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/resources/all.labels" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/resources/all.labels" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/reverse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/standardData.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/reverse/standardData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,9 +156,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kma-det" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -92,20 +173,23 @@
   <component name="ProjectId" id="1QCIuUunfYBLuqu4o77iXBN4zsk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kmadetect/manage.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/aitutorial" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kmadetect" />
+      <recent name="$PROJECT_DIR$/detect" />
       <recent name="$PROJECT_DIR$/reverse/tempApks" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/reverse/resources" />
-      <recent name="$PROJECT_DIR$/reverse" />
-      <recent name="$PROJECT_DIR$/reverse/libs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/detect" />
       <recent name="$PROJECT_DIR$/reverse/Libraries" />
       <recent name="$PROJECT_DIR$/kmadetect/home/static/image" />
     </key>
@@ -122,29 +206,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.virustotal">
     <configuration name="Unnamed" type="CompoundRunConfigurationType">
-      <method v="2" />
-    </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="kma-det" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Train" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -155,34 +218,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kmadetect/detect" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/Train.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmadetect/detect/Train.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getFeatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="kma-det" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reverse" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse/getFeatures.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -201,6 +244,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmadetect/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -222,6 +266,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse/reverse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -243,7 +288,52 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kma-det" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kmadetect/home" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmadetect/home/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="virustotal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kma-det" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kmadetect/detect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmadetect/detect/virustotal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,21 +345,24 @@
     <list>
       <item itemvalue="Compound.Unnamed" />
       <item itemvalue="Python.manage" />
-      <item itemvalue="Python.getFeatures" />
       <item itemvalue="Python.Train" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.reverse" />
-      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.virustotal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.virustotal" />
         <item itemvalue="Python.Train" />
-        <item itemvalue="Python.reverse" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.getFeatures" />
+        <item itemvalue="Python.Train" />
+        <item itemvalue="Python.Train" />
+        <item itemvalue="Python.Train" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -281,8 +374,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567223174550</updated>
+      <workItem from="1570983794224" duration="779000" />
+      <workItem from="1571024374872" duration="162000" />
+      <workItem from="1571024553375" duration="83000" />
+      <workItem from="1571024655808" duration="1865000" />
+      <workItem from="1571063979785" duration="33891000" />
+      <workItem from="1571311133276" duration="2751000" />
+      <workItem from="1571750842424" duration="733000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -301,54 +404,99 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/extensions/getLabelNums.py</url>
+          <url>file://$PROJECT_DIR$/kmadetect/extensions/getLabelNums.py</url>
           <line>40</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/reverse/getFeatures.py</url>
+          <url>file://$PROJECT_DIR$/kmadetect/reverse/getFeatures.py</url>
           <line>276</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/reverse/getFeatures.py</url>
+          <url>file://$PROJECT_DIR$/kmadetect/reverse/getFeatures.py</url>
           <line>263</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/reverse/getFeatures.py</url>
+          <url>file://$PROJECT_DIR$/kmadetect/reverse/getFeatures.py</url>
           <line>261</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/detect/test.py</url>
+          <url>file://$PROJECT_DIR$/kmadetect/detect/test.py</url>
           <line>5</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/detect/Test.py</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/kmadetect/detect/Test.py</url>
+          <line>45</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/detect/Train.py</url>
+          <url>file://$PROJECT_DIR$/kmadetect/detect/Train.py</url>
           <line>86</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/reverse/getFeatures.py</url>
+          <url>file://$PROJECT_DIR$/kmadetect/reverse/getFeatures.py</url>
           <line>145</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/detect/Test.py</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/kmadetect/detect/Test.py</url>
+          <line>72</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/Test.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/reverse/reverse.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/Test.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kmadetect/home/views.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="66" />
+          <line>42</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/Test.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/virustotal.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/virustotal.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/virustotal.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/virustotal.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmadetect/detect/virustotal.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -379,7 +527,18 @@
         <watch expression="nameApk" language="Python" />
         <watch expression="analyze_apk" language="Python" />
         <watch expression="request" language="Python" />
+        <watch expression="valObj.getDataLabel()" language="Python" />
+        <watch expression="open('/reverse/resources/LabelsNum.json', &quot;r+&quot;)" language="Python" />
+        <watch expression="os.listdir()" language="Python" />
+        <watch expression="open(LabelsNum_file, &quot;r+&quot;)" language="Python" />
+        <watch expression="open(LabelsNum_file, &quot;r+&quot;)" language="Python" />
+        <watch expression="open('reverse/resources/LabelsNum.json', 'w+')" language="Python" />
+        <watch expression="with open(LabelsNum_file, &quot;r+&quot;)" language="Python" />
+        <watch expression="open(LabelsNum_file, &quot;r+&quot;)" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kma_det$virustotal.coverage" NAME="virustotal Coverage Results" MODIFIED="1571151941339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmadetect/detect" />
   </component>
 </project>
