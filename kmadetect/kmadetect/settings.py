@@ -126,3 +126,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 MEDIA_ROOT = os.path.join(BASE_DIR, 'templeApks')
 MEDIA_URL = '/templeApks/'
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
