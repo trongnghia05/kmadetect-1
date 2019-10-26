@@ -13,7 +13,6 @@ PATH = "file path"
 
 def builtModel(N_CLASSES, IMG_SIZE):
     tf.reset_default_graph()
-
     network = input_data(
         shape=[None, IMG_SIZE, IMG_SIZE, 1])  # 1   #ĐIền 1 nếu là ảnh đen trắng, 3 nếu là ảnh màu ở thông số cuối cùng.
 
