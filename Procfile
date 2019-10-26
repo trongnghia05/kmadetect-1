@@ -1,1 +1,1 @@
-web: gunicorn kmadetect.kmadetect.wsgi
+web: gunicorn kmadetect.wsgi
