@@ -57,3 +57,8 @@ def upload(request):
       print(contextfinal)
    return render(request, 'pages/resuilt.html', contextfinal)
 
+def pagedownload(request):
+    return render(request, 'pages/downloadapk.html')
+
+def checkapk(request):
+    return render(request, 'pages/checkapk.html')
