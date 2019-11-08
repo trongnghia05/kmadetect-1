@@ -84,7 +84,9 @@ def predict(model, test_data, pathModel, threshold):
 
             }
         )
-    return result_predict["result"]
+
+    print(result_predict["result"][0])
+    return result_predict["result"][0]
 # def predict(model, test_data, pathModel):
 #     model.load(pathModel)
 #     test_logits = model.predict(test_data)

@@ -9,11 +9,11 @@ import csv
 import os
 
 
-from standardData import *
+from reverse.standardData import *
 from tqdm import tqdm
 from os.path import join as join_dir
-from features_managment import *
-from mergeCSV import *
+from reverse.features_managment import *
+from reverse.mergeCSV import *
 from androguard.core.bytecodes.apk import APK
 from collections import Counter
 

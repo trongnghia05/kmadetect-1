@@ -9,8 +9,8 @@ from detect import Test as test
 from tqdm import tqdm
 
 PATH_CONFIG = '../reverse/config.json'
-PATH_DATACSV_CLIENT = '../reverse/DataCSV_Client'
-PATH_CONFIGCNNs = 'configCNNs.json'
+PATH_DATACSV_CLIENT = 'reverse/DataCSV_Client'
+PATH_CONFIGCNNs = 'detect/configCNNs.json'
 PATH_DATACSV = '../reverse/DataCSV'
 
 
@@ -112,13 +112,13 @@ def detectApk(nameApk):
 
 
 
-    familyMalware = test.detect(pathApkCSV,
+    predictjson = test.detect(pathApkCSV,
             BATCH_SIZE=BATCH_SIZE,
             IMG_SIZE=IMG_SIZE,
             N_CLASSES=N_CLASSES,
             N_EPOCHS=N_EPOCHS)
-    print(familyMalware)
-    return familyMalware
+    print(predictjson)
+    return predictjson
 
 def list_files(directory, string):
     result = []

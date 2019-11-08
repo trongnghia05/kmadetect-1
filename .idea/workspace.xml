@@ -3,29 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9ff4e647-9d83-4ab5-81df-0e61ae1c3937" name="Default Changelist" comment="add profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect/DataHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/DataHandle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detect/ModelHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/ModelHandle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detect/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detect/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/Train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.index" beforeDir="false" afterPath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/pages/resuilt.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/resuilt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/0_2019-09-18 12:18:37.608436.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/1_2019-09-18 12:26:15.603279.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/2_2019-09-18 12:29:20.348471.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/3_2019-09-18 12:45:37.665902.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/4_2019-09-18 13:01:20.709268.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/5_2019-09-18 13:18:31.719052.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/15de2b9874b1ceb4a46d8c40d609e84d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/DataCSV_Client/15de2b9874b1ceb4a46d8c40d609e84d.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverse/features_managment.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/features_managment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/getFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/getFeatures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverse/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/reverse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/standardData.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/standardData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +248,7 @@
       <workItem from="1572171575510" duration="881000" />
       <workItem from="1573187731941" duration="4538000" />
       <workItem from="1573217927370" duration="228000" />
-      <workItem from="1573224635618" duration="2447000" />
+      <workItem from="1573224635618" duration="4556000" />
     </task>
     <task id="LOCAL-00001" summary="fix venv">
       <created>1571801846563</created>

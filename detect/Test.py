@@ -11,7 +11,7 @@ import json
 # LR = 0.001
 # N_EPOCHS = 5
 
-PATH_SAVE_MODEL = "model/KMA_DtectModel.tflearn"
+PATH_SAVE_MODEL = "detect/model/KMA_DtectModel.tflearn"
 LabelsNum_file = 'reverse/resources/LabelsNum.json'
 
 
@@ -75,15 +75,17 @@ def detect(path,  BATCH_SIZE, IMG_SIZE, N_CLASSES, N_EPOCHS): # ham du doan
 
     numLabelPredict = predictjson['label']
     x = 2
-    if (len(numLabelPredict) > 0):
-        numLabelDetect = numLabelPredict[0]
+    # if (len(numLabelPredict) > 0):
+    #     numLabelDetect = numLabelPredict
 
     for label in dataNumLabel:
-        if dataNumLabel[label] == numLabelDetect:
+        if dataNumLabel[label] == numLabelPredict:
             print(label)
             predictjson['name_label'] = label
             return predictjson
-    return 'Null'
+    return {
+        'name_label': 'Null'
+    }
 
 
 def trainModel(model, train_data, train_label, val_data, val_label, N_EPOCHS, pathModel):

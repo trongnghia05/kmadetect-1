@@ -6,7 +6,7 @@ import sys
 import json
 sys.path.insert(0, '../reverse/')
 sys.path.insert(0, '../detect/')
-import reverse as rvs
+from reverse import reverse as rvs
 from detect import Train as t
 
 from django.shortcuts import render
@@ -38,16 +38,18 @@ def upload(request):
       # shutil.move(fs.path(name), os.path.join(PATH_TEMP, name))
       nameMd5, apk_total_analysis = rvs.reverse(name)
       if nameMd5 == 'Error':
-         labelDetect = 'Null'
+         predictJson = { "name_label":'Null' }
       else:
-         labelDetect = t.detectApk(nameMd5)
+         predictJson = t.detectApk(nameMd5)
 
-      if labelDetect == 'Null':
+      if predictJson["name_label"] == 'Null':
          Mess = 'Cant detect what kind of file'
       else:
          Mess = 'Detected'
 
-      context['labelDetect'] = labelDetect
+      context['labelDetect'] = predictJson["name_label"]
+      context['probability'] = str(predictJson['probability'])
+      context['status'] = predictJson['status']
       context['Mess'] = Mess
       context['apk_total_analysis'] = apk_total_analysis
       # context['pre_static_dict'] = apk_total_analysis['pre_static_dict']
