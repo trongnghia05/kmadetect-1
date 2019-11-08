@@ -57,6 +57,8 @@ def upload(request):
       print(context)
       contextfinal = json.loads(json.dumps(context))
       print(contextfinal)
+   if (predictJson['label'] == 1):
+      return render(request, 'pages/resuiltnonevirus.html', contextfinal)
    return render(request, 'pages/resuilt.html', contextfinal)
 
 def pagedownload(request):

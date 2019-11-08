@@ -12,17 +12,20 @@
         <div id="summary" class="tabcontent" style=display:block>
             <h4><b>Tổng quan </b></h4>
             <div>
-                <div class="row1">
-                    <a>Tên: </a>
-                    <a>{{ apk_total_analysis.Pre_static_analysis.Filename }} </a>
+                 <div class="row1">
+                    <a style="font-size: 125%; font-weight: bold;" >Đây được dự đoán là ứng dụng mã độc android</a>
                 </div>
                 <div class="row1">
                     <a>Họ virus: </a>
                     <a>{{ labelDetect }} </a>
                 </div>
                 <div class="row1">
-                    <a>Độ chính xác </a>
+                    <a>Độ tin tưởng: </a>
                     <a>{{ probability }} </a>
+                </div>
+                  <div class="row1">
+                    <a>Tên: </a>
+                    <a>{{ apk_total_analysis.Pre_static_analysis.Filename }} </a>
                 </div>
                 <div class="row1">
                     <a>MD5: </a>

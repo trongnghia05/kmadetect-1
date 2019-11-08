@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff4e647-9d83-4ab5-81df-0e61ae1c3937" name="Default Changelist" comment="add profile">
+      <change afterPath="$PROJECT_DIR$/templeApks/65d39f6d19892aadb5fa70a7f6e71c97.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/pages/checkapk.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/checkapk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/pages/resuilt.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/resuilt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/pages/resuiltnonevirus.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/resuiltnonevirus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kmadetect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0d60665f894bb84df9baeb91eecfb8d1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0da2560eaded2d6150332a639bbddd96.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0db81ab33e4b2a13ed1eedb06ea522d0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0dbeafbeb55cd83e1f1142dfcc68687c.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0dc3f788d494ccda6c2e4160fa278993.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0dc7d9ca3b1927ba43ac0f2517d20cfc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0de5c01c9e66be313970cc3af017f188.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0defddd577e412bb544ef0c63e313929.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0dfd69365b364d7dfce190b9275fdadb.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/0dffbe3b86fa8dbfb21b6f35bdc8ec20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/15de2b9874b1ceb4a46d8c40d609e84d.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/23c0083513a7d8fb57dc14d2b460d1ed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/44d0875b43b8f1870c822665f95326c6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/63f26345ba76ef5e033ef6e5ccecd30d.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/65a46987af79bbea356fc9cf34ddda7f.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/65ad83bc8c3461c68d4a00bf58b48440.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/65b048998fdf5074faf682e23732f625.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/65bb75a4bc86419446d7ce2401700999.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/65c7fcd5f837c851bf18fbb779791b0f.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +266,7 @@
       <workItem from="1572171575510" duration="881000" />
       <workItem from="1573187731941" duration="4538000" />
       <workItem from="1573217927370" duration="228000" />
-      <workItem from="1573224635618" duration="5441000" />
+      <workItem from="1573224635618" duration="7914000" />
     </task>
     <task id="LOCAL-00001" summary="fix venv">
       <created>1571801846563</created>
