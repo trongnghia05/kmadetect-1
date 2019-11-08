@@ -6,7 +6,7 @@
         <div class="tab nav nav-tabs" style="padding : 0px">
             <button class="tablinks" onclick="viewResuilt(event, 'summary')">Tổng quan</button>
             <button class="tablinks" onclick="viewResuilt(event, 'details')">Chi tiết</button>
-            <button class="tablinks" onclick="viewResuilt(event, 'virustotal')">Virustotal</button>
+<!--            <button class="tablinks" onclick="viewResuilt(event, 'virustotal')">Virustotal</button>-->
         </div>
         <!--        <h1 align="center"> {{ labelDetect }}</h1>-->
         <div id="summary" class="tabcontent" style=display:block>
@@ -19,6 +19,10 @@
                 <div class="row1">
                     <a>Họ virus: </a>
                     <a>{{ labelDetect }} </a>
+                </div>
+                <div class="row1">
+                    <a>Độ chính xác </a>
+                    <a>{{ probability }} </a>
                 </div>
                 <div class="row1">
                     <a>MD5: </a>
@@ -63,8 +67,6 @@
 
                         {% endfor%}
                     </div>
-
-
                 </div>
                 <div class="" title="Tên các activity trong ứng dụng android">
                     <h6><b>Main activity</b></h6>

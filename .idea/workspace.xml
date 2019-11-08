@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9ff4e647-9d83-4ab5-81df-0e61ae1c3937" name="Default Changelist" comment="add profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect/ModelHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/ModelHandle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/Train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/features_managment.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/features_managment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/reverse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/pages/checkapk.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/checkapk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/pages/resuilt.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/resuilt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmadetect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmadetect/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -248,7 +246,7 @@
       <workItem from="1572171575510" duration="881000" />
       <workItem from="1573187731941" duration="4538000" />
       <workItem from="1573217927370" duration="228000" />
-      <workItem from="1573224635618" duration="4556000" />
+      <workItem from="1573224635618" duration="5441000" />
     </task>
     <task id="LOCAL-00001" summary="fix venv">
       <created>1571801846563</created>
