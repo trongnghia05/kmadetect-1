@@ -9,11 +9,17 @@ import collections
 import json
 import datetime
 
+# from tqdm import tqdm
+# from os.path import join as join_dir
+# from androguard.core.bytecodes.apk import APK
+# from collections import Counter
+from standardData import *
 from tqdm import tqdm
 from os.path import join as join_dir
+from features_managment import *# features_managment import *
+from mergeCSV import  *
 from androguard.core.bytecodes.apk import APK
 from collections import Counter
-
 
 ARRNAME = []
 ARRLABELS = []
@@ -28,7 +34,7 @@ config_file = 'config.json'
 LabelsNum_file = 'resources/LabelsNum.json'
 LABELSNUMANDTEXT = collections.OrderedDict()
 maxLabelsNum = 0
-
+BASE = os.path.dirname(os.path.abspath(__file__))
 
 global dataConfig
 
@@ -45,7 +51,15 @@ def main():
     # args = parser.parse_args()
 
 
-    getFeatures(source_directory = r'/home/nguyentrung/Data_VirusAndroid/VirusShare-7')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-1')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-2')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-3')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-4')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-5')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-6')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-7')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-8')
+    getFeatures(source_directory=r'/home/nguyentrung/Data_VirusAndroid/VirusShare-9')
 
 def getFeatures(source_directory):
     ############################################################
@@ -150,7 +164,7 @@ def getFeatures(source_directory):
 
         static_analysis_dict = collections.OrderedDict()
         # Package name
-        static_analysis_dict['Package name'] = androguard_apk_object.get_package()
+        static_analysis_dict['Package_name'] = androguard_apk_object.get_package()
 
         # Permissions
         static_analysis_dict['Permissions'] = androguard_apk_object.get_permissions()
@@ -163,7 +177,7 @@ def getFeatures(source_directory):
             list_activities = []
 
         # Main activity
-        static_analysis_dict['Main activity'] = androguard_apk_object.get_main_activity()
+        static_analysis_dict['Main_activity'] = androguard_apk_object.get_main_activity()
 
         # Receivers
         try:
@@ -187,7 +201,7 @@ def getFeatures(source_directory):
             else:
                 list_smali_api_calls[new_api_call] = list_smali_api_calls[api_call]
                 del list_smali_api_calls[api_call]
-        static_analysis_dict['API calls'] = list_smali_api_calls
+        static_analysis_dict['API_calls'] = list_smali_api_calls
         static_analysis_dict['Strings'] = Counter(filter(None, list_smali_strings))
 
         # API packages
@@ -210,7 +224,7 @@ def getFeatures(source_directory):
                 else:
                     API_packages_dict[package_chosen] += list_smali_api_calls[api_call]
 
-        static_analysis_dict['API packages'] = API_packages_dict
+        static_analysis_dict['API_packages'] = API_packages_dict
 
 
 

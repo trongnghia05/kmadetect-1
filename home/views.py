@@ -6,8 +6,8 @@ import sys
 import json
 sys.path.insert(0, '../reverse/')
 sys.path.insert(0, '../detect/')
-import reverse.reverse as rvs
-import detect.Train as t
+import reverse as rvs
+from detect import Train as t
 
 from django.shortcuts import render
 from django.core.files.storage import FileSystemStorage

@@ -1,6 +1,6 @@
 import re
 import lxml.etree as et
-from reverse.aux_functions import *
+from aux_functions import *
 from collections import Counter
 from androguard.core.bytecodes import dvm
 

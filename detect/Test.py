@@ -11,7 +11,7 @@ import json
 # LR = 0.001
 # N_EPOCHS = 5
 
-PATH_SAVE_MODEL = "detect/model/KMA_DtectModel.tflearn"
+PATH_SAVE_MODEL = "model/KMA_DtectModel.tflearn"
 LabelsNum_file = 'reverse/resources/LabelsNum.json'
 
 
@@ -55,7 +55,7 @@ def tranfer(path, BATCH_SIZE, IMG_SIZE, N_CLASSES, N_EPOCHS): # ham tranfer
 
     # tranfer : load từ model đã có và train tiếp (các tham số của mô hình phải được buil lại qua phương thức builtModel)
     model = builtModel(N_CLASSES, IMG_SIZE)
-    model = tranfer(model, trainObj.getDataTrain(), trainObj.getDataLabel(), valObj.getDataTrain(),
+    model = tranferModel(model, trainObj.getDataTrain(), trainObj.getDataLabel(), valObj.getDataTrain(),
                                 valObj.getDataLabel(), N_EPOCHS, PATH_SAVE_MODEL)
 
 
@@ -71,15 +71,18 @@ def detect(path,  BATCH_SIZE, IMG_SIZE, N_CLASSES, N_EPOCHS): # ham du doan
     # du doan
     model = builtModel(N_CLASSES, IMG_SIZE)
     print('Family Malware Apk: ')
-    numLabelPredict = predict(model, testObj, PATH_SAVE_MODEL)
+    predictjson = predict(model, testObj, PATH_SAVE_MODEL, 0.3)
 
+    numLabelPredict = predictjson['label']
     x = 2
     if (len(numLabelPredict) > 0):
         numLabelDetect = numLabelPredict[0]
+
     for label in dataNumLabel:
         if dataNumLabel[label] == numLabelDetect:
             print(label)
-            return label
+            predictjson['name_label'] = label
+            return predictjson
     return 'Null'
 
 

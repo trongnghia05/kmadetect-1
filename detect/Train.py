@@ -5,13 +5,13 @@ import os
 import fnmatch
 import json
 
-import detect.Test as test
+from detect import Test as test
 from tqdm import tqdm
 
-PATH_CONFIG = 'reverse/config.json'
-PATH_DATACSV_CLIENT = 'reverse/DataCSV_Client'
-PATH_CONFIGCNNs = 'detect/configCNNs.json'
-PATH_DATACSV = 'reverse/DataCSV'
+PATH_CONFIG = '../reverse/config.json'
+PATH_DATACSV_CLIENT = '../reverse/DataCSV_Client'
+PATH_CONFIGCNNs = 'configCNNs.json'
+PATH_DATACSV = '../reverse/DataCSV'
 
 
 
@@ -129,5 +129,5 @@ def list_files(directory, string):
 
 
 if __name__ == '__main__':
-
-    detectApk('d80e4f88ed36dde12da1863794ea143bcf53eaae22e511e3eb7402cef5224d4d.csv')
+    trainModel()
+    # detectApk('d80e4f88ed36dde12da1863794ea143bcf53eaae22e511e3eb7402cef5224d4d.csv')

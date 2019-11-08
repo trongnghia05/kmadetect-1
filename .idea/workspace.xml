@@ -2,33 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff4e647-9d83-4ab5-81df-0e61ae1c3937" name="Default Changelist" comment="add profile">
-      <change afterPath="$PROJECT_DIR$/home/templates/pages/checkapk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/pages/downloadapk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/pages/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/DataHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/DataHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/ModelHandle.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/ModelHandle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/Train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.index" beforeDir="false" afterPath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/detect/model/KMA_DtectModel.tflearn.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/pages/resuilt.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/resuilt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/59b2c643f21076b9990ef67038da5253.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/63dff3169174d26a98d9ad353e2b394a.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/64c50ea5a56fb916ff31289601d52fc4.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65a6cdf59a4301df9bd1d033a0bd6c2d.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65a6cdf59a4301df9bd1d033a0bd6c2d_2LDCx7J.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65a6cdf59a4301df9bd1d033a0bd6c2d_NYfZoxa.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65a6cdf59a4301df9bd1d033a0bd6c2d_gSuA5R1.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65a8bd6418758bd83bdf5947f52f2596.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65ad83bc8c3461c68d4a00bf58b48440.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65b048998fdf5074faf682e23732f625.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65bb75a4bc86419446d7ce2401700999.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65cd932aa81fa998f79f668fe993a7f6.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65cd932aa81fa998f79f668fe993a7f6_17Anpgb.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/65d39f6d19892aadb5fa70a7f6e71c97.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/8c3c2d2da6891c9c7a4b26bd2450d7e4c066c8f89a48e1c876e5a6f859eb3806.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/9c87679d426201abe2562ec1c8f8c9bec969fd7449cc49c7b4f042cd99d3bcef.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/fd3c03af16b449de0357334ab9d9fa41106da4a7e17966782cf2d01665d8c98b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/fded1ec2d17f957b230feb5fff518ec98322a1617e4e28953ff38270cb16098a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/ff2db1fa521b2d5aed855e35bc01ea8cfc69693c591186d9b3427a6efd0bcbf0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templeApks/fff29f78324c75c8727426d77b128d3ee9df7ba6a1f0be1617be3430ed99d050" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/0_2019-09-18 12:18:37.608436.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/1_2019-09-18 12:26:15.603279.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/2_2019-09-18 12:29:20.348471.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/3_2019-09-18 12:45:37.665902.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/4_2019-09-18 13:01:20.709268.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV/5_2019-09-18 13:18:31.719052.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/DataCSV_Client/15de2b9874b1ceb4a46d8c40d609e84d.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/DataCSV_Client/15de2b9874b1ceb4a46d8c40d609e84d.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/features_managment.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/features_managment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/getFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/getFeatures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/resources/LabelsNum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/reverse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse/standardData.py" beforeDir="false" afterPath="$PROJECT_DIR$/reverse/standardData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,22 +53,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/detect" />
+      <recent name="$PROJECT_DIR$/reverse/Libraries" />
+      <recent name="$PROJECT_DIR$/kmadetect/home/static/image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/home/templates/pages" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/kmadetect" />
       <recent name="$PROJECT_DIR$/detect" />
       <recent name="$PROJECT_DIR$/reverse/tempApks" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/detect" />
-      <recent name="$PROJECT_DIR$/reverse/Libraries" />
-      <recent name="$PROJECT_DIR$/kmadetect/home/static/image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,6 +87,28 @@
     <configuration name="Unnamed" type="CompoundRunConfigurationType">
       <method v="2" />
     </configuration>
+    <configuration name="Train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kma-det" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/Train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kma-det" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +125,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmadetect/detect/Train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getFeatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kma-det" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reverse" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse/getFeatures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -156,50 +197,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="kma-det" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="kma-det" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kmadetect/home" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmadetect/home/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="virustotal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kma-det" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,17 +223,17 @@
       <item itemvalue="Compound.Unnamed" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.Train" />
-      <item itemvalue="Python.reverse" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.views" />
       <item itemvalue="Python.virustotal" />
+      <item itemvalue="Python.getFeatures" />
+      <item itemvalue="Python.reverse" />
+      <item itemvalue="Python.Train (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Train (1)" />
+        <item itemvalue="Python.getFeatures" />
+        <item itemvalue="Python.reverse" />
         <item itemvalue="Python.virustotal" />
-        <item itemvalue="Python.Train" />
-        <item itemvalue="Python.Train" />
-        <item itemvalue="Python.Train" />
         <item itemvalue="Python.Train" />
       </list>
     </recent_temporary>
@@ -264,7 +261,11 @@
       <workItem from="1571798570151" duration="8287000" />
       <workItem from="1571991443431" duration="1412000" />
       <workItem from="1572064118400" duration="8781000" />
-      <workItem from="1572147053932" duration="4231000" />
+      <workItem from="1572147053932" duration="8284000" />
+      <workItem from="1572171575510" duration="881000" />
+      <workItem from="1573187731941" duration="4538000" />
+      <workItem from="1573217927370" duration="228000" />
+      <workItem from="1573224635618" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="fix venv">
       <created>1571801846563</created>
@@ -513,6 +514,11 @@
           <line>17</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/detect/Test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -554,7 +560,10 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kma_det$getFeatures.coverage" NAME="getFeatures Coverage Results" MODIFIED="1573195296252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reverse" />
     <SUITE FILE_PATH="coverage/kma_det$virustotal.coverage" NAME="virustotal Coverage Results" MODIFIED="1571151941339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmadetect/detect" />
-    <SUITE FILE_PATH="coverage/kma_det$manage.coverage" NAME="manage Coverage Results" MODIFIED="1572075906023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kma_det$Train__1_.coverage" NAME="Train (1) Coverage Results" MODIFIED="1573225750297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detect" />
+    <SUITE FILE_PATH="coverage/kma_det$reverse.coverage" NAME="reverse Coverage Results" MODIFIED="1573194932306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reverse" />
+    <SUITE FILE_PATH="coverage/kma_det$manage.coverage" NAME="manage Coverage Results" MODIFIED="1573226857372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

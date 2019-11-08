@@ -52,7 +52,7 @@ def train(model, train_data, train_label, val_data, val_label, N_EPOCHS, pathMod
     return model
 
 
-def tranfer(model, train_data, train_label, val_data, val_label, N_EPOCHS, pathModel):
+def tranferModel(model, train_data, train_label, val_data, val_label, N_EPOCHS, pathModel):
     model.load(pathModel)
     model.fit(train_data, train_label, n_epoch=N_EPOCHS, validation_set=(val_data, val_label), show_metric=True)
     model.save(pathModel)
@@ -60,12 +60,37 @@ def tranfer(model, train_data, train_label, val_data, val_label, N_EPOCHS, pathM
     return model
 
 
-def predict(model, test_data, pathModel):
+
+def predict(model, test_data, pathModel, threshold):
+    # if the probability of the sample is greater than or equal to the 'threshold' then the status will be 'true' otherwise it is 'capably'
+    result_predict = {}
+    result_predict["result"] = []
     model.load(pathModel)
     test_logits = model.predict(test_data)
-    
-    test_logits = np.argmax(test_logits, axis=-1)
+    for i in range(len(test_logits)):
+        label_max = np.argmax(test_logits, axis=-1)[i]
+        probability_max = test_logits[i][label_max]
+        if (float(threshold) <= probability_max):
+            status = "true"
+        else:
+            status = "capably"
+        result_predict["result"].append(
+            {
+                "pattern": i,
+                "label": label_max,
+                "name_label": "",
+                "probability": probability_max,
+                "status": status
 
-    return test_logits
+            }
+        )
+    return result_predict["result"]
+# def predict(model, test_data, pathModel):
+#     model.load(pathModel)
+#     test_logits = model.predict(test_data)
+#
+#     test_logits = np.argmax(test_logits, axis=-1)
+#
+#     return test_logits
 
 

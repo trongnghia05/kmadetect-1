@@ -17,7 +17,6 @@ Service_receiver = []
 
 def standardData(pre_static_dict, static_analysis_dict):
 
-
     features = []
 
     getPermissions(static_analysis_dict['Permissions'], features = features)

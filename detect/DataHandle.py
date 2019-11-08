@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import random
 from tflearn.data_utils import to_categorical
-import detect.Data as data
+from detect.Data import *
 
 
 def readFileCsv(path):
@@ -28,7 +28,7 @@ def standardizedData(data, IMG_SIZE, N_CLASSES, rowData):
     train_data = train_data.reshape(-1, IMG_SIZE, IMG_SIZE, 1)
     train_label = to_categorical(train_y, N_CLASSES)
 
-    return data.Data(train_data, train_label)
+    return Data(train_data, train_label)
 
 def standardizedDataTest(data, IMG_SIZE, N_CLASSES, rowData):
     dataTest = np.array(data, dtype='float32')

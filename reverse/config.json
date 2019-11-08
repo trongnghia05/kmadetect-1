@@ -1,6 +1,6 @@
 {
-    "partData": 6,
-    "partTrained": 6,
+    "partData": 8,
+    "partTrained": 9,
     "maxLabelsNum": 670,
     "mergeCSV": 500,
     "BATCH_SIZE": 32,
