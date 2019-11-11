@@ -4,8 +4,6 @@
     <list default="true" id="9ff4e647-9d83-4ab5-81df-0e61ae1c3937" name="Default Changelist" comment="add profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/pages/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/pages/resuilt.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/pages/resuilt.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +244,8 @@
       <workItem from="1573187731941" duration="4538000" />
       <workItem from="1573217927370" duration="228000" />
       <workItem from="1573224635618" duration="8276000" />
-      <workItem from="1573261958086" duration="1377000" />
+      <workItem from="1573261958086" duration="2471000" />
+      <workItem from="1573484403176" duration="446000" />
     </task>
     <task id="LOCAL-00001" summary="fix venv">
       <created>1571801846563</created>
